@@ -1,25 +1,13 @@
 # Changelog
 
-## [0.5.0]
+## [0.2.0-1]
 
-### Changed
-
-- Replaced the v4.20 bindings with the v5.13 ones.
-
-### Removed
-
-- Removed v4.14 bindings.
-
-## [0.4.0]
-
-- vmm-sys-utils dependency bumped to match kvm-ioctls.
-
-## [0.3.0]
+Built on top of upstream rust-vmm/kvm-bindings v0.2.0.
 
 ### Added
 
-- Enabled `fam-wrappers` support on arm and arm64.
-- Added fam-wrapper for the arm specific `kvm_reg_list` struct.
+- Added versioning support for kvm bindings structures used
+  in VM serialization on x86_64.
 
 ## [0.2.0]
 
