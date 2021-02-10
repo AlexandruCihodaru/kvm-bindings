@@ -22,7 +22,7 @@ behaviour.
 # Usage
 First, add the following to your `Cargo.toml`:
 ```toml
-kvm-bindings = "0.3"
+kvm-bindings = "0.4"
 ```
 Next, add this to your crate root:
 ```rust
@@ -34,7 +34,7 @@ a Flexible Array Member in their definition.
 These safe wrappers can be used if the `fam-wrappers` feature is enabled for
 this crate. Example:
 ```toml
-kvm-bindings = { version = "0.3", features = ["fam-wrappers"]}
+kvm-bindings = { version = "0.4", features = ["fam-wrappers"]}
 ```
 
 # Dependencies
