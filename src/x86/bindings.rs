@@ -37,7 +37,7 @@ where
     ) -> VersionizeResult<Self> {
         let storage = Versionize::deserialize(reader, version_map, app_version)?;
 
-        Ok(__BindgenBitfieldUnit { storage, align: [] })
+        Ok(__BindgenBitfieldUnit { storage})
     }
 
     fn version() -> u16 {
