@@ -5766,7 +5766,7 @@ fn bindgen_test_layout_kvm_vapic_addr() {
     );
 }
 #[repr(C)]
-#[derive(Debug, Default, Copy, Clone, PartialEq)]
+#[derive(Debug, Default, Copy, Clone, PartialEq, Versionize)]
 pub struct kvm_mp_state {
     pub mp_state: __u32,
 }
@@ -7867,7 +7867,7 @@ fn bindgen_test_layout_kvm_reg_list() {
     );
 }
 #[repr(C)]
-#[derive(Debug, Default, Copy, Clone, PartialEq)]
+#[derive(Debug, Default, Copy, Clone, PartialEq, Versionize)]
 pub struct kvm_one_reg {
     pub id: __u64,
     pub addr: __u64,
